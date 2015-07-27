@@ -9,7 +9,7 @@ var bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({extended: true}));
 
 app.use(express.static(__dirname + '/public'));
-app.listen(3000, function() { console.log('listening')});
+app.listen(process.env.PORT || 3000, function() { console.log('listening')});
 
 //=============== END OF RUNNING SERVER ================
 
