@@ -1,22 +1,38 @@
 body {
 	padding-top: 70px;
-	background-color: #ffde00;
+	background-color: #ffffff;
 }
 
 .navbar-default {
-	background-color: #006666;
+	background-color: #000000;
 }
 
 .navbar-default .navbar-brand {
-	color: #ffde00;
+	color: #ffffff;
+}
+
+#about {
+	text-align: center;
+	padding-top: 50px;
 }
 
 .image {
     padding-top: 30px;
+    padding-bottom: 40px;
 }
 
 h2 {
 	color: #000066;
+}
+
+#projects {
+	text-align: center;
+	padding-top: 50px;
+}
+
+#projects-container {
+	background-color: #c0c0c0;
+	padding-bottom: 70px;
 }
 
 p {
@@ -26,7 +42,7 @@ a {
 	text-align: right;
 }
 
-.fonta {
+#contact {
 	text-align: center;
 	padding-bottom: 14px;
 }
