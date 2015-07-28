@@ -1,6 +1,6 @@
-var express = require('express');
-var app = express();
-var bodyParser = require('body-parser');
+var express 		= require('express'),
+		app 				= express(),
+	  bodyParser 	= require('body-parser');
 
 //=============== END OF BOILERPLATE ===================
 
@@ -8,8 +8,12 @@ var bodyParser = require('body-parser');
 // using bodyParser middleware
 app.use(bodyParser.urlencoded({extended: true}));
 
-app.use(express.static(__dirname + '/public'));
-app.listen(process.env.PORT || 3000, function() { console.log('listening')});
+app.use(express.static(__dirname + '/public/stylesheets'));
+app.use(express.static(__dirname + '/public/views'));
+
+
+// app.use(express.static(__dirname + '/stylesheets'));
+app.listen(process.env.PORT || 3000, function() { console.log('The server is listening.')});
 
 //=============== END OF RUNNING SERVER ================
 
