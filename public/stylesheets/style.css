@@ -1,3 +1,27 @@
+body {
+	padding-top: 70px;
+	background-color: #ffde00;
+}
+
+.navbar-default {
+	background-color: #006666;
+}
+
+.navbar-default .navbar-brand {
+	color: #ffde00;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
 h2 {
-	color: red;
+	color: #000066;
+}
+
+p {
+	color: #006666;
+}
+a {
+	text-align: right;
 }

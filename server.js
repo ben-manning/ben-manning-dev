@@ -10,6 +10,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.use(express.static(__dirname + '/public/stylesheets'));
 app.use(express.static(__dirname + '/public/views'));
+app.use(express.static(__dirname + '/public/images'));
 
 
 // app.use(express.static(__dirname + '/stylesheets'));
