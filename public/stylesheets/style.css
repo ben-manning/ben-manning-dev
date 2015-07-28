@@ -1,3 +1,7 @@
+* {
+  margin: 0; padding: 0;
+  }
+
 body {
 	padding-top: 70px;
 	background-color: #ffffff;
@@ -25,6 +29,10 @@ h2 {
 	color: #000066;
 }
 
+#projects-section {
+	background-color: #c0c0c0;
+}
+
 #projects {
 	text-align: center;
 	padding-top: 50px;
@@ -33,6 +41,14 @@ h2 {
 #projects-container {
 	background-color: #c0c0c0;
 	padding-bottom: 70px;
+}
+
+#extra-heading {
+	text-align: center;
+}
+
+#fake-section {
+	background-color: #e18a07;
 }
 
 p {
