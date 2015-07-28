@@ -11,8 +11,8 @@ body {
 	color: #ffde00;
 }
 
-.img-circle {
-    border-radius: 50%;
+.image {
+    padding-top: 30px;
 }
 
 h2 {
@@ -24,4 +24,13 @@ p {
 }
 a {
 	text-align: right;
+}
+
+.fonta {
+	text-align: center;
+}
+
+.fa {
+	font-size: 28px;
+	padding-left: 12px;
 }
